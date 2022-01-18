@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Credit Card</name>
+   <name>a_Credit Card_1</name>
    <tag></tag>
-   <elementGuidId>9248ad65-8767-4504-b9fc-10a7cf735e07</elementGuidId>
+   <elementGuidId>e9ce665f-1261-4531-bf7b-4d8509a67dbc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://clctab.axisbank.co.in/DigitalChannel/WebForm/?index6&amp;_ga=2.137561142.722731770.1642500484-1861478333.1642500484</value>
+      <value>https://clctab.axisbank.co.in/DigitalChannel/WebForm/?index6&amp;_ga=2.112613380.1670311573.1642502871-932195274.1642502871</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;accessibility js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths desktop windows windowsnt chrome chrome97 webkit mouse&quot;]/body[@class=&quot;homeBody home&quot;]/header[@class=&quot;headerSection&quot;]/div[@class=&quot;maroontheme&quot;]/div[@class=&quot;topMenu personalHeader&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;whitebg d-inline-block&quot;]/div[@class=&quot;loginSectMob&quot;]/ul[@class=&quot;navbar-right&quot;]/li[@class=&quot;open&quot;]/div[@class=&quot;loginDrpDown jsLoginDrpDwn&quot;]/div[@class=&quot;accordian&quot;]/ul[1]/li[3]/a[1]</value>
+      <value>/html[@class=&quot;accessibility js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths desktop windows windowsnt chrome chrome97 webkit mouse&quot;]/body[@class=&quot;homeBody home&quot;]/header[@class=&quot;headerSection&quot;]/div[@class=&quot;maroontheme&quot;]/div[@class=&quot;topMenu personalHeader&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;whitebg d-inline-block&quot;]/div[@class=&quot;loginSect&quot;]/div[@class=&quot;loginClk jsloginClk&quot;]/div[@class=&quot;loginDrpDown jsLoginDrpDwn&quot;]/div[@class=&quot;accordian&quot;]/ul[1]/li[3]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -133,7 +133,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://clctab.axisbank.co.in/DigitalChannel/WebForm/?index6&amp;_ga=2.137561142.722731770.1642500484-1861478333.1642500484')]</value>
+      <value>//a[contains(@href, 'https://clctab.axisbank.co.in/DigitalChannel/WebForm/?index6&amp;_ga=2.112613380.1670311573.1642502871-932195274.1642502871')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]/ul/li[3]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://clctab.axisbank.co.in/DigitalChannel/WebForm/?index6&amp;_ga=2.100015132.389465005.1642502350-566197986.1642502350')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,33 +155,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/ul/li[5]/div/div[3]/ul/li[3]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, 'https://clctab.axisbank.co.in/DigitalChannel/WebForm/?index6&amp;_ga=2.11292916.115694746.1642499500-413488623.1642499500')]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, 'https://clctab.axisbank.co.in/DigitalChannel/WebForm/?index6&amp;_ga=2.183184358.1709566699.1642497938-1332749377.1642497938')]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, 'https://clctab.axisbank.co.in/DigitalChannel/WebForm/?index6&amp;_ga=2.111519367.2022169514.1642489553-1861458618.1642489553')]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, 'https://clctab.axisbank.co.in/DigitalChannel/WebForm/?index6&amp;_ga=2.23864947.832900051.1642479761-1513145564.1642479761')]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -27,13 +27,11 @@ WebUI.navigateToUrl('https://clctab.axisbank.co.in/DigitalChannel/WebForm/?index
 
 WebUI.click(findTestObject('Object Repository/Page_Axis Bank/a_Yes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Axis Bank/strong_Customer ID'))
+WebUI.setText(findTestObject('Object Repository/Page_Axis Bank/input__mobileinfo_Mob'), '7276470085')
 
-WebUI.setText(findTestObject('Object Repository/Page_Axis Bank/input__cust_Id'), '908508634')
+WebUI.setText(findTestObject('Page_Axis Bank/input_PAN_mobileinfo_Pan'), 'dxvpm3172g')
 
-WebUI.setText(findTestObject('Object Repository/Page_Axis Bank/input_PAN_cust_PAN'), 'dxvpm3172g')
-
-WebUI.click(findTestObject('Page_Axis Bank/button_Next'))
+WebUI.click(findTestObject('Object Repository/Page_Axis Bank/button_Next'))
 
 WebUI.click(findTestObject('Object Repository/Page_Axis Bank/input__otp_Number'))
 

@@ -25,25 +25,19 @@ WebUI.navigateToUrl('https://www.axisbank.com/')
 
 WebUI.navigateToUrl('https://clctab.axisbank.co.in/DigitalChannel/WebForm/?index6&_ga=2.17106237.586592390.1642480016-1098874808.1642480016')
 
-WebUI.click(findTestObject('Object Repository/Page_Axis Bank/a_Yes'))
+WebUI.click(findTestObject('Object Repository/Page_Axis Bank/a_No'))
 
-WebUI.click(findTestObject('Object Repository/Page_Axis Bank/strong_Customer ID'))
+WebUI.setText(findTestObject('Object Repository/Page_Axis Bank Credit Card/input_Mobile Number_cust_MOB'), '0000011111')
 
-WebUI.setText(findTestObject('Object Repository/Page_Axis Bank/input__cust_Id'), '908508634')
+WebUI.setText(findTestObject('Object Repository/Page_Axis Bank Credit Card/input_PAN Number_cust_PAN'), 'dxvpm3172g')
 
-WebUI.setText(findTestObject('Object Repository/Page_Axis Bank/input_PAN_cust_PAN'), 'dxvpm3172g')
+WebUI.setText(findTestObject('Object Repository/Page_Axis Bank Credit Card/input_Pincode_cust_PINCODE'), '421501')
 
-WebUI.click(findTestObject('Page_Axis Bank/button_Next'))
+WebUI.setText(findTestObject('Object Repository/Page_Axis Bank Credit Card/input_Net Annual Income()_cust_NETINCOME'), '300000')
 
-WebUI.click(findTestObject('Object Repository/Page_Axis Bank/input__otp_Number'))
+WebUI.click(findTestObject('Object Repository/Page_Axis Bank Credit Card/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/Page_Axis Bank/label_I agree to terms and conditions of OTP'))
-
-WebUI.click(findTestObject('Object Repository/Page_Axis Bank/button_I agree'))
-
-WebUI.click(findTestObject('Object Repository/Page_Axis Bank/button_Submit'))
-
-WebUI.verifyTextPresent('This field is mandatory.', false)
+WebUI.verifyTextPresent('Invalid', false)
 
 WebUI.takeFullPageScreenshot()
 

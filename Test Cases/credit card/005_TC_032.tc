@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To check user able to apply credit card application with invalid data (incorrect pincode)</description>
+   <name>005_TC_032</name>
+   <tag>Non-existing customer</tag>
+   <comment></comment>
+   <testCaseGuid>6ccdca42-0e6d-4c6b-87b8-3e87ab079644</testCaseGuid>
+</TestCaseEntity>

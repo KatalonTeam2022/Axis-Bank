@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To check user able to apply credit card application with invalid data (incorrect PAN no)</description>
+   <name>005_TC_031</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a4e5333-3f3d-450b-95a5-c4e9fb169e9e</testCaseGuid>
+</TestCaseEntity>

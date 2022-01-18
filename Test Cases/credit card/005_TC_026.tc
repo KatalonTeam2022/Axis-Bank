@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To check user able to apply credit card application with invalid Credentials (Invalid mobile no. &amp; valid PAN)</description>
+   <name>005_TC_026</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1a463f1-c579-4fc0-a857-41636d02afea</testCaseGuid>
+</TestCaseEntity>

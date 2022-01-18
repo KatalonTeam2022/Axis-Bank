@@ -27,23 +27,13 @@ WebUI.navigateToUrl('https://clctab.axisbank.co.in/DigitalChannel/WebForm/?index
 
 WebUI.click(findTestObject('Object Repository/Page_Axis Bank/a_Yes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Axis Bank/strong_Customer ID'))
+WebUI.setText(findTestObject('Object Repository/Page_Axis Bank/input__mobileinfo_Mob'), '0000011111')
 
-WebUI.setText(findTestObject('Object Repository/Page_Axis Bank/input__cust_Id'), '908508634')
+WebUI.setText(findTestObject('Page_Axis Bank/input_PAN_mobileinfo_Pan'), 'dxvpm3172g')
 
-WebUI.setText(findTestObject('Object Repository/Page_Axis Bank/input_PAN_cust_PAN'), 'dxvpm3172g')
+WebUI.click(findTestObject('Object Repository/Page_Axis Bank/button_Next'))
 
-WebUI.click(findTestObject('Page_Axis Bank/button_Next'))
-
-WebUI.click(findTestObject('Object Repository/Page_Axis Bank/input__otp_Number'))
-
-WebUI.click(findTestObject('Object Repository/Page_Axis Bank/label_I agree to terms and conditions of OTP'))
-
-WebUI.click(findTestObject('Object Repository/Page_Axis Bank/button_I agree'))
-
-WebUI.click(findTestObject('Object Repository/Page_Axis Bank/button_Submit'))
-
-WebUI.verifyTextPresent('This field is mandatory.', false)
+WebUI.verifyTextPresent('Axis Bank', false)
 
 WebUI.takeFullPageScreenshot()
 

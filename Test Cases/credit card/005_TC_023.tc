@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To check user able to apply credit card application with invalid Credentials (valid mobile no. &amp; wrong Date of birth)</description>
+   <name>005_TC_023</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35706a61-a2e6-4402-af95-647d8919ab5c</testCaseGuid>
+</TestCaseEntity>
